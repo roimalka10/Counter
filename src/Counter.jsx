@@ -23,6 +23,11 @@ const Counter = () => {
       >
         Decrement
       </Button>
+      <br />
+      <br />
+      <Button variant="contained" onClick={() => setCount(0)}>
+        Reset
+      </Button>
     </div>
   );
 };
